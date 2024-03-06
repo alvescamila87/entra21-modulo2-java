@@ -17,7 +17,7 @@ public class Notas {
         
         int[] notas = new int[3];
         int soma = 0;
-        double media = 0;
+        double media;
         
         for (int i = 0; i < notas.length; i++) {            
             System.out.println("Digite uma nota: ");                    
