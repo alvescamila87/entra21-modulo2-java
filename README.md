@@ -21,5 +21,5 @@ Repositório de estudos com o objetivo de trilhar o módulo voltado para backend
 * Debug e Breakpoint
 * Interface gráfica
 
-## Stacks do módulo 1 de Front-end
+## Stack do módulo 2 de Backend
 * Java
