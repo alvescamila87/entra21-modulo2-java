@@ -66,15 +66,17 @@ public class SistemaVotacao1 {
                     if(candidato1 > candidato2 && candidato1 > candidato3 && candidato1 > candidato4) {
                         candidatoVencedor = candidato1;
                         System.out.println("Candidato 1 é vencedor! Com: " + candidatoVencedor + " voto(s)!");
-                    } else if (candidato2 > candidato3 && candidato2 > candidato4){
+                    } else if (candidato2 > candidato1 && candidato2 > candidato3 && candidato2 > candidato4){
                         candidatoVencedor = candidato2;
                         System.out.println("Candidato 2 é vencedor! Com: " + candidatoVencedor + " voto(s)!");
-                    } else if (candidato3 > candidato4){
+                    } else if (candidato3 > candidato1 && candidato3 > candidato2 && candidato3 > candidato4){
                         candidatoVencedor = candidato3;
                         System.out.println("Candidato 3 é vencedor! Com: " + candidatoVencedor + " voto(s)!");
-                    } else {
+                    } else if (candidato4 > candidato1 && candidato4 > candidato3 && candidato4 > candidato2){
                         candidatoVencedor = candidato4;
                         System.out.println("Candidato 4 é vencedor! Com: " + candidatoVencedor + " voto(s)!");
+                    } else {
+                        System.out.println("Empate entre candidatos!");                                            
                     }
                     break;
                 case 6:
