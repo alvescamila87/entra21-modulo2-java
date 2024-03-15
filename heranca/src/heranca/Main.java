@@ -28,6 +28,11 @@ public class Main {
         System.out.println(cc.getSaldoComLimite());
         
         System.out.println(cp.getSaldo());
+        
+        Conta conta = cc;
+        conta.sacar(15);
+        System.out.println(conta.getSaldo());
+        System.out.println(cc.getSaldo());
     }
     
 }
