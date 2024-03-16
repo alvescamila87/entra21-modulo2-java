@@ -1,5 +1,5 @@
 
-package heranca;
+package interfaces;
 
 /**
  *
@@ -8,13 +8,13 @@ package heranca;
 public class Conta {
 
     String nomeTitular;
-    double saldo;
+    private double saldo;
     
     double getSaldo() {
         return this.saldo;
     }
     
-    void setSaldo(double valor){
+    void setSaldo(double valor) {
         this.saldo = valor;
     }
     
