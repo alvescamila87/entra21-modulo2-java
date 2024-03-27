@@ -14,8 +14,10 @@ public class ArraylistExample {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+              
+        ArrayList<Float> medias = new ArrayList<>();             
         ArrayList<Double> notas = new ArrayList<>(Arrays.asList(5.5,6.5,10.0));
+        
         System.out.println(notas);
         
         // FOR CONVENCIONAL    
